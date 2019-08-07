@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "84018178-cb47-4d95-b84a-0ead33259af3",
+		"name": "JwtWebApiTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetToken",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:56050/api/token/",
+					"host": [
+						"localhost"
+					],
+					"port": "56050",
+					"path": [
+						"api",
+						"token",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetValue",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
